@@ -5,7 +5,7 @@ A JavaScript time helper toolkit.
 
 ### Installation
 
-```bash
+```
 npm i thor-time
 ```
 
@@ -13,7 +13,7 @@ npm i thor-time
 
 1. Import it
 ```javascript
-import time from 'thor-time;
+import time from 'thor-time';
 ```
 
 2. time.now()
