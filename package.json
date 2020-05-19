@@ -5,8 +5,8 @@
 	"repository": {
 		"url": "https://gitee.com/thor.qin/thor-time.git"
 	},
-  "main": "index.js",
-  "exports": "index.js",
+  "main": "./index.js",
+  "exports": "./index.js",
   "type": "module",
   "scripts": {},
   "keywords": [
