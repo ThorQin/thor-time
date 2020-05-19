@@ -1,10 +1,10 @@
 {
   "name": "thor-time",
-  "version": "1.0.1",
-	"description": "A simple date time helper toolkit.",
-	"repository": {
-		"url": "https://gitee.com/thor.qin/thor-time.git"
-	},
+  "version": "1.0.2",
+  "description": "A simple date time helper toolkit.",
+  "repository": {
+    "url": "https://gitee.com/thor.qin/thor-time.git"
+  },
   "main": "./index.js",
   "exports": "./index.js",
   "type": "module",
