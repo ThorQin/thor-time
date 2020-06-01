@@ -1,21 +1,31 @@
 {
-  "name": "thor-time",
-  "version": "1.0.2",
-  "description": "A simple date time helper toolkit.",
-  "repository": {
-    "url": "https://gitee.com/thor.qin/thor-time.git"
-  },
-  "main": "./index.js",
-  "exports": "./index.js",
-  "type": "module",
-  "scripts": {},
-  "keywords": [
-    "data",
-    "time"
-  ],
-  "author": "thor.qin@outlook.com",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^7.0.0"
-  }
+	"name": "thor-time",
+	"version": "1.0.2",
+	"description": "A simple date time helper toolkit.",
+	"repository": {
+		"url": "https://gitee.com/thor.qin/thor-time.git"
+	},
+	"main": "./lib/index.js",
+	"exports": "./lib/index.js",
+	"types": "./lib/index.d.ts",
+	"type": "module",
+	"keywords": [
+		"data",
+		"time"
+	],
+	"author": "thor.qin@outlook.com",
+	"license": "MIT",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^2.33.0",
+		"@typescript-eslint/parser": "^2.33.0",
+		"eslint": "^7.0.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-prettier": "^3.1.3",
+		"prettier": "^2.0.5",
+		"typescript": "^3.9.3"
+	},
+	"scripts": {
+		"build": "tsc -P tsconfig.json",
+		"postbuild": "prettier --write ./lib"
+	}
 }
